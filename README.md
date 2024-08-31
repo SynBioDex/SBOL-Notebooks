@@ -43,6 +43,19 @@ echo "source sbol_env/bin/activate && jupyter notebook"
 
 If you are using Jupyter Notebooks in VS Code, you should be able to select "sbol_env" as your environment.
 
+
+## Repository Structure
+
+This repository is organized into several key sections to help you navigate and find the resources you need:
+
+- **`learning_path/`**: This folder contains a series of tutorials designed to guide you through the basics and more advanced topics in SBOL. Start here if you're new to SBOL or want to follow a structured learning path.
+
+- **`examples/`**: This folder includes additional examples and use cases that aren't part of the main learning path.
+
+- **`workshops/`**: Access resources from past workshops and training sessions.
+
+- **`install_latest_libraries.sh`**: A script to set up your environment with the latest SBOL libraries.
+
 ## Contributing
 
 We welcome contributions! If you would like to contribute, please fork the repository and create a pull request with your changes. If you encounter any issues, feel free to open an issue in the repository.
