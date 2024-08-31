@@ -6,17 +6,43 @@ Welcome to the SBOL Notebooks repository! This repository contains a collection 
 
 The Synthetic Biology Open Language (SBOL) is a standard for representing biological designs. SBOL 3 is the latest version of this standard, offering a more streamlined and intuitive way to represent complex biological systems.
 
+## Prerequisites
 
-## How to Use
+Before getting started, make sure you have Python installed on your system. You'll also need Jupyter Notebook or Visual Studio Code to run the notebooks.
+
+### Install Jupyter Notebook:
+  - If you don't have Jupyter Notebooks installed, please follow the instructions specified [here](https://jupyter.org/install).
+  - You can start Jupyter notebooks using this command: ```jupyter notebook```.
+  - If you prefer using [VS Code](https://code.visualstudio.com), you can also run Jupyter Notebooks within VS Code using instructions in this [link](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+
+## Testing the Notebooks
 
 1. Clone the Repository:
 
-```git clone https://github.com/SynBioDex/SBOL-Notebooks.git```
+```bash
+git clone https://github.com/SynBioDex/SBOL-Notebooks.git
+```
 
-2. Install Required Packages:
-```pip install -r requirements.txt```
+2. Install Dependencies and Create a Virtual Environment
 
-3. Launch Jupyter Notebook:
-  - If you don't have Jupyter Notebooks installed, please follow instructions specified [here](https://jupyter.org/install).
-  You can start Jupyter notebooks using this command: ```jupyter notebook```. 
-  - If you prefer using [VS Code](https://code.visualstudio.com), you can also run Jupyter Notebooks within VS Code using instructions in this [link](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+For your convenience, we have created a simple script that installs the latest version of all the important Python SBOL libraries in a virtual environment. After you've cloned the repository, follow these steps:
+
+```
+cd SBOL-Notebooks
+./install_latest_libraries.sh
+```
+
+You should see folders for all the libraries and a message at the end: "All libraries have been installed in the 'sbol_env' virtual environment."
+
+3. Start Jupyter Notebook:
+
+You can now start Jupyter Notebook with the following command:
+```
+echo "source sbol_env/bin/activate && jupyter notebook"
+```
+
+If you are using Jupyter Notebooks in VS Code, you should be able to select "sbol_env" as your environment.
+
+## Contributing
+
+We welcome contributions! If you would like to contribute, please fork the repository and create a pull request with your changes. If you encounter any issues, feel free to open an issue in the repository.
