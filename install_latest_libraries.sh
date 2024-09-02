@@ -20,6 +20,7 @@ git clone https://github.com/SynBioDex/SBOL-utilities
 git clone https://github.com/SynBioDex/SBOL-to-Excel
 git clone https://github.com/SynBioDex/Excel-to-SBOL
 git clone https://github.com/VoigtLab/dnaplotlib
+git clone https://github.com/SynBioDex/tyto
 
 # Install the SBOL2 library
 cd pySBOL2
@@ -32,6 +33,11 @@ pip install .
 # Install the paraSBOLv library
 cd ../paraSBOLv
 pip install .
+
+# Install the Tyto library
+cd ../tyto
+pip install .
+
 
 # Install the SBOL Utilities library
 cd ../SBOL-utilities
