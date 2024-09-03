@@ -16,8 +16,10 @@ getting_started/01_Introduction_to_SBOL3/example_dna.ttl
 getting_started/01_Introduction_to_SBOL3/example_dna.nt
 getting_started/01_Introduction_to_SBOL3/example_dna.rdf
 
-getting_started/03_Visualising_in_SBOL/tu_color.png
 getting_started/03_Visualising_in_SBOL/tu.png
+getting_started/03_Visualising_in_SBOL/tu_color.png
+getting_started/03_Visualising_in_SBOL/tu_parasbolv.png
+getting_started/03_Visualising_in_SBOL/tu_parasbolv_color.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
