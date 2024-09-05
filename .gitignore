@@ -1,3 +1,26 @@
+pySBOL2/
+pySBOL3/
+paraSBOLv/
+SBOL-utilities/
+SBOL-to-Excel/
+Excel-to-SBOL/
+dnaplotlib/
+tyto/
+sbol_env/
+
+getting_started/02_Genetic_Circuits_in_SBOL/transcriptional_unit.rdf
+getting_started/02_Genetic_Circuits_in_SBOL/transcriptional_unit.xlsx
+
+getting_started/01_Introduction_to_SBOL3/example_dna.json
+getting_started/01_Introduction_to_SBOL3/example_dna.ttl
+getting_started/01_Introduction_to_SBOL3/example_dna.nt
+getting_started/01_Introduction_to_SBOL3/example_dna.rdf
+
+getting_started/03_Visualising_in_SBOL/tu.png
+getting_started/03_Visualising_in_SBOL/tu_color.png
+getting_started/03_Visualising_in_SBOL/tu_parasbolv.png
+getting_started/03_Visualising_in_SBOL/tu_parasbolv_color.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
