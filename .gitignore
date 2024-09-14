@@ -8,6 +8,9 @@ dnaplotlib/
 tyto/
 sbol_env/
 
+examples/sbol2/**/*.rdf
+examples/sbol2/**/*.xml
+
 getting_started/02_Genetic_Circuits_in_SBOL/transcriptional_unit.rdf
 getting_started/02_Genetic_Circuits_in_SBOL/transcriptional_unit.xlsx
 
