@@ -57,6 +57,7 @@ pip install .
 
 # Install other dependencies
 pip install matplotlib
+pip install biopython
 
 # Return to the root directory
 cd ..
