@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v3#"
+>
+  <rdf:Description rdf:about="https://github.com/SynBioDex/SBOL-Notebooks/example_component">
+    <sbol:displayId>example_component</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000139"/>
+    <sbol:hasSequence rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks/example_sequence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/SynBioDex/SBOL-Notebooks/example_sequence">
+    <sbol:displayId>example_sequence</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Sequence"/>
+    <sbol:hasNamespace rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks"/>
+    <sbol:elements>ATGCGTACGTAGCTAGCTAGC</sbol:elements>
+    <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+  </rdf:Description>
+</rdf:RDF>

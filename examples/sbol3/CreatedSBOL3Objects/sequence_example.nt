@@ -1,0 +1,5 @@
+<https://github.com/SynBioDex/SBOL-Notebooks/example_sequence> <http://sbols.org/v3#displayId> "example_sequence" .
+<https://github.com/SynBioDex/SBOL-Notebooks/example_sequence> <http://sbols.org/v3#elements> "ATGCGTACGTAGCTAGCTAGC" .
+<https://github.com/SynBioDex/SBOL-Notebooks/example_sequence> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://github.com/SynBioDex/SBOL-Notebooks/example_sequence> <http://sbols.org/v3#hasNamespace> <https://github.com/SynBioDex/SBOL-Notebooks> .
+<https://github.com/SynBioDex/SBOL-Notebooks/example_sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
