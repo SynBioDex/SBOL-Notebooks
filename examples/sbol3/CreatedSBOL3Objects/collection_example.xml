@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v3#"
+>
+  <rdf:Description rdf:about="https://github.com/SynBioDex/SBOL-Notebooks/example_collection">
+    <sbol:displayId>example_collection</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Collection"/>
+    <sbol:hasNamespace rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks"/>
+    <sbol:member rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks/promoter_1"/>
+    <sbol:member rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks/promoter_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/SynBioDex/SBOL-Notebooks/promoter_2">
+    <sbol:displayId>promoter_2</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/SynBioDex/SBOL-Notebooks/promoter_1">
+    <sbol:displayId>promoter_1</sbol:displayId>
+    <rdf:type rdf:resource="http://sbols.org/v3#Component"/>
+    <sbol:hasNamespace rdf:resource="https://github.com/SynBioDex/SBOL-Notebooks"/>
+    <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+    <sbol:role rdf:resource="https://identifiers.org/SO:0000167"/>
+  </rdf:Description>
+</rdf:RDF>
